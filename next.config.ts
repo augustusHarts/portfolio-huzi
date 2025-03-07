@@ -1,9 +1,10 @@
+/** @type {import('next').NextConfig} */
 import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  output: "export", // Ensure Next.js exports static files
-  basePath: "/portfolio-huzi", // Important: GitHub Pages serves from repo name
-  atrailingSlash: true,
+const nextConfig = {
+  output: "export",
+  basePath: "/portfolio-huzi",
+  assetPrefix: "/portfolio-huzi/",
 };
 
 export default nextConfig;
