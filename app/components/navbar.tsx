@@ -45,7 +45,7 @@ export default function Navbar() {
                   </Link>
                 </div>
                 <div>
-                  <Link className="text-body-secondary d-block" href="/">
+                  <Link className="text-body-secondary d-block" href="#footer">
                     More...
                   </Link>
                 </div>
